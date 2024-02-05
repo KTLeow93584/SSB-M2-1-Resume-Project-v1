@@ -1,42 +1,97 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* =========================== */
+/* Main Page */
+
+.split-screen {
+  display: flex;
+  flex: 1;
+  flex-direction: flex-row;
+  width: 100vw;
+  height: 100%;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* =========================== */
+/* Left Portion of the screen */
+
+.left-screen {
+  background-color: white;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.portrait {
+  width: 100px;
+  height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.header {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: 25px;
 }
 
-.card {
-  padding: 2em;
+.left-screen-group {
+  margin: 0% 7.5%;
 }
 
-.read-the-docs {
-  color: #888;
+.left-screen-content {
+  color: black;
+  margin: 4.5px;
+  font-size: 13px;
+  font-family: Calibri, Helvetica, sans-serif;
 }
+
+.left-screen-header {
+  color: black;
+  margin: 10.5px 4.5px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.left-screen-header-title {
+  color: black;
+  margin: 4.5px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+.left-screen-content-quote {
+  color: grey;
+  margin: 4.5px;
+  font-size: 9px;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+.left-screen-content-description {
+  color: black;
+  margin: 4.5px;
+  font-size: 12px;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+/* =========================== */
+/* Right Portion of the screen */
+
+.right-screen {
+  width: fit-content;
+  background-color: #1B212F;
+  padding-left: 1%;
+  padding-right: 5%;
+}
+
+.right-screen-header {
+  color: white;
+  margin: 10.5px 4.5px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.right-screen-content {
+  color: white;
+  margin: 4.5px;
+  font-size: 13px;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+/* =========================== */
