@@ -232,12 +232,16 @@ function Links() {
             Links
           </p>
 
-          <a href={"https://www.linkedin.com/in/kazcade/"} target={"_blank"} rel="noopener noreferrer" className="right-screen-content">
-            LinkedIn
-          </a>
-          <a href={"https://projectkazcade.itch.io/"} target={"_blank"} rel="noopener noreferrer" className="right-screen-content">
-            Itch IO
-          </a>
+          <p className="right-screen-content">
+            <a href={"https://www.linkedin.com/in/kazcade/"} target={"_blank"} rel="noopener noreferrer">
+              LinkedIn
+            </a>
+          </p>
+          <p className="right-screen-content">
+            <a href={"https://projectkazcade.itch.io/"} target={"_blank"} rel="noopener noreferrer">
+              Itch IO
+            </a>
+          </p>
         </Col>
       </Row>
     </>
